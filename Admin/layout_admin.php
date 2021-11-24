@@ -7,11 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Majestic Admin</title>
   <!-- plugins:css -->
-  <link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css">
-  <link rel="stylesheet" href="vendors/base/vendor.bundle.base.css">
+  <link rel="stylesheet" href="css/vendors/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="css/vendors/base/vendor.bundle.base.css">
   <!-- endinject -->
   <!-- plugin css for this page -->
-  <link rel="stylesheet" href="vendors/datatables.net-bs4/dataTables.bootstrap4.css">
+  <link rel="stylesheet" href="css/vendors/datatables.net-bs4/dataTables.bootstrap4.css">
   <!-- End plugin css for this page -->
   <!-- inject:css -->
   <link rel="stylesheet" href="css/style.css">
@@ -54,7 +54,7 @@
               <p class="mb-0 font-weight-normal float-left dropdown-header">Messages</p>
               <a class="dropdown-item">
                 <div class="item-thumbnail">
-                    <img src="images/faces/face4.jpg" alt="image" class="profile-pic">
+                    <img src="admin/images/faces/face4.jpg" alt="image" class="profile-pic">
                 </div>
                 <div class="item-content flex-grow">
                   <h6 class="ellipsis font-weight-normal">David Grey
@@ -66,7 +66,7 @@
               </a>
               <a class="dropdown-item">
                 <div class="item-thumbnail">
-                    <img src="images/faces/face2.jpg" alt="image" class="profile-pic">
+                    <img src="admin/images/faces/face2.jpg" alt="image" class="profile-pic">
                 </div>
                 <div class="item-content flex-grow">
                   <h6 class="ellipsis font-weight-normal">Tim Cook
@@ -78,7 +78,7 @@
               </a>
               <a class="dropdown-item">
                 <div class="item-thumbnail">
-                    <img src="images/faces/face3.jpg" alt="image" class="profile-pic">
+                    <img src="admin/images/faces/face3.jpg" alt="image" class="profile-pic">
                 </div>
                 <div class="item-content flex-grow">
                   <h6 class="ellipsis font-weight-normal"> Johnson
@@ -140,7 +140,7 @@
           </li>
           <li class="nav-item nav-profile dropdown">
             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
-              <img src="images/faces/face5.jpg" alt="profile"/>
+              <img src="admin/images/faces/face5.jpg" alt="profile"/>
               <span class="nav-profile-name">Louis Barnett</span>
             </a>
             <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
@@ -150,7 +150,7 @@
               </a>
               <a class="dropdown-item">
                 <i class="mdi mdi-logout text-primary"></i>
-                Logout
+                Đang xuất
               </a>
             </div>
           </li>
@@ -174,62 +174,43 @@
           <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
               <i class="mdi mdi-circle-outline menu-icon"></i>
-              <span class="menu-title">UI Elements</span>
+              <span class="menu-title">Sản phẩm</span>
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">Buttons</a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Typography</a></li>
+                <li class="nav-item"> <a class="nav-link" href="">Thêm sản phẩm</a></li>
+                <li class="nav-item"> <a class="nav-link" href="">Danh sách sản phẩm</a></li>
               </ul>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="pages/forms/basic_elements.html">
-              <i class="mdi mdi-view-headline menu-icon"></i>
-              <span class="menu-title">Form elements</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pages/charts/chartjs.html">
-              <i class="mdi mdi-chart-pie menu-icon"></i>
-              <span class="menu-title">Charts</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pages/tables/basic-table.html">
-              <i class="mdi mdi-grid-large menu-icon"></i>
-              <span class="menu-title">Tables</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pages/icons/mdi.html">
-              <i class="mdi mdi-emoticon menu-icon"></i>
-              <span class="menu-title">Icons</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
-              <i class="mdi mdi-account menu-icon"></i>
-              <span class="menu-title">User Pages</span>
+            <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+              <i class="mdi mdi-circle-outline menu-icon"></i>
+              <span class="menu-title">Loại sản phẩm</span>
               <i class="menu-arrow"></i>
             </a>
-            <div class="collapse" id="auth">
+            <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/login.html"> Login </a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/login-2.html"> Login 2 </a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/register.html"> Register </a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/register-2.html"> Register 2 </a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/lock-screen.html"> Lockscreen </a></li>
+                <li class="nav-item"> <a class="nav-link" href="">Thêm loại sản phẩm</a></li>
+                <li class="nav-item"> <a class="nav-link" href="">Danh mục sản phẩm</a></li>
               </ul>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="documentation/documentation.html">
-              <i class="mdi mdi-file-document-box-outline menu-icon"></i>
-              <span class="menu-title">Documentation</span>
+            <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+              <i class="mdi mdi-circle-outline menu-icon"></i>
+              <span class="menu-title">Thương hiệu</span>
+              <i class="menu-arrow"></i>
             </a>
+            <div class="collapse" id="ui-basic">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="">Thêm thương hiệu</a></li>
+                <li class="nav-item"> <a class="nav-link" href="">Danh sách thương hiệu</a></li>
+              </ul>
+            </div>
           </li>
+          
         </ul>
       </nav>
       <!-- partial -->
@@ -445,119 +426,7 @@
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-7 grid-margin stretch-card">
-              <div class="card">
-                <div class="card-body">
-                  <p class="card-title">Cash deposits</p>
-                  <p class="mb-4">To start a blog, think of a topic about and first brainstorm party is ways to write details</p>
-                  <div id="cash-deposits-chart-legend" class="d-flex justify-content-center pt-3"></div>
-                  <canvas id="cash-deposits-chart"></canvas>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-5 grid-margin stretch-card">
-              <div class="card">
-                <div class="card-body">
-                  <p class="card-title">Total sales</p>
-                  <h1>$ 28835</h1>
-                  <h4>Gross sales over the years</h4>
-                  <p class="text-muted">Today, many people rely on computers to do homework, work, and create or store useful information. Therefore, it is important </p>
-                  <div id="total-sales-chart-legend"></div>                  
-                </div>
-                <canvas id="total-sales-chart"></canvas>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12 stretch-card">
-              <div class="card">
-                <div class="card-body">
-                  <p class="card-title">Recent Purchases</p>
-                  <div class="table-responsive">
-                    <table id="recent-purchases-listing" class="table">
-                      <thead>
-                        <tr>
-                            <th>Name</th>
-                            <th>Status report</th>
-                            <th>Office</th>
-                            <th>Price</th>
-                            <th>Date</th>
-                            <th>Gross amount</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                            <td>Jeremy Ortega</td>
-                            <td>Levelled up</td>
-                            <td>Catalinaborough</td>
-                            <td>$790</td>
-                            <td>06 Jan 2018</td>
-                            <td>$2274253</td>
-                        </tr>
-                        <tr>
-                            <td>Alvin Fisher</td>
-                            <td>Ui design completed</td>
-                            <td>East Mayra</td>
-                            <td>$23230</td>
-                            <td>18 Jul 2018</td>
-                            <td>$83127</td>
-                        </tr>
-                        <tr>
-                            <td>Emily Cunningham</td>
-                            <td>support</td>
-                            <td>Makennaton</td>
-                            <td>$939</td>
-                            <td>16 Jul 2018</td>
-                            <td>$29177</td>
-                        </tr>
-                        <tr>
-                            <td>Minnie Farmer</td>
-                            <td>support</td>
-                            <td>Agustinaborough</td>
-                            <td>$30</td>
-                            <td>30 Apr 2018</td>
-                            <td>$44617</td>
-                        </tr>
-                        <tr>
-                            <td>Betty Hunt</td>
-                            <td>Ui design not completed</td>
-                            <td>Lake Sandrafort</td>
-                            <td>$571</td>
-                            <td>25 Jun 2018</td>
-                            <td>$78952</td>
-                        </tr>
-                        <tr>
-                            <td>Myrtie Lambert</td>
-                            <td>Ui design completed</td>
-                            <td>Cassinbury</td>
-                            <td>$36</td>
-                            <td>05 Nov 2018</td>
-                            <td>$36422</td>
-                        </tr>
-                        <tr>
-                            <td>Jacob Kennedy</td>
-                            <td>New project</td>
-                            <td>Cletaborough</td>
-                            <td>$314</td>
-                            <td>12 Jul 2018</td>
-                            <td>$34167</td>
-                        </tr>
-                        <tr>
-                            <td>Ernest Wade</td>
-                            <td>Levelled up</td>
-                            <td>West Fidelmouth</td>
-                            <td>$484</td>
-                            <td>08 Sep 2018</td>
-                            <td>$50862</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          
         </div>
         <!-- content-wrapper ends -->
         <!-- partial:partials/_footer.html -->
@@ -576,12 +445,12 @@
   <!-- container-scroller -->
 
   <!-- plugins:js -->
-  <script src="vendors/base/vendor.bundle.base.js"></script>
+  <script src="css/vendors/base/vendor.bundle.base.js"></script>
   <!-- endinject -->
   <!-- Plugin js for this page-->
-  <script src="vendors/chart.js/Chart.min.js"></script>
-  <script src="vendors/datatables.net/jquery.dataTables.js"></script>
-  <script src="vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>
+  <script src="css/vendors/chart.js/Chart.min.js"></script>
+  <script src="css/vendors/datatables.net/jquery.dataTables.js"></script>
+  <script src="css/vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>
   <!-- End plugin js for this page-->
   <!-- inject:js -->
   <script src="js/off-canvas.js"></script>
