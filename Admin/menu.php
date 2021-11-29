@@ -14,8 +14,8 @@
             </a>
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="">Thêm sản phẩm</a></li>
-                <li class="nav-item"> <a class="nav-link" href="">Danh sách sản phẩm</a></li>
+                <li class="nav-item"> <a class="nav-link" href="?addpro=addproduct">Thêm sản phẩm</a></li>
+                <li class="nav-item"> <a class="nav-link" href="?listpro=listproduct">Danh sách sản phẩm</a></li>
               </ul>
             </div>
           </li>
@@ -27,8 +27,8 @@
             </a>
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="/Admin/categorys/add.php">Thêm loại sản phẩm</a></li>
-                <li class="nav-item"> <a class="nav-link" href="/Admin/categorys/list.php">Danh mục sản phẩm</a></li>
+                <li class="nav-item"> <a class="nav-link" href="?addcate=category">Thêm loại sản phẩm</a></li>
+                <li class="nav-item"> <a class="nav-link" href="?listcate=listcategory">Danh mục sản phẩm</a></li>
               </ul>
             </div>
           </li>
